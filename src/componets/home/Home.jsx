@@ -166,7 +166,7 @@ function Home() {
             </div>
           ) : (
             <div className="main_caja_mensaje">
-              <p>You lose, try again!</p>
+              <p>You lose, try again! " {palabra} "</p>
             </div>
           )}
         </div>
@@ -176,3 +176,4 @@ function Home() {
 }
 
 export default Home;
+
