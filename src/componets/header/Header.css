@@ -5,8 +5,6 @@
   justify-content: center;
   align-items: center;
   padding: 20px 0 10px 0;
-
-
 }
 
 .header_nav {
@@ -17,7 +15,7 @@
   padding: 3px 10px;
   display: flex;
   justify-content: space-around;
-  background-color: #a0d2eb;
+  background-color: white;
 
   ul {
     display: flex;
