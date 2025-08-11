@@ -1,0 +1,129 @@
+.contacto_contenedor {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8458b3;
+}
+
+.contacto_contenedor_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  h1 {
+    font-family: var(--fuente-naranja);
+    text-transform: uppercase;
+    padding: 10px 0 15px 0;
+  }
+
+  form {
+    border: 1px solid var(--color-principal);
+    width: 400px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(250, 249, 248);
+
+    
+  }
+
+  form:hover {
+    transition: all ease-in-out;
+    box-shadow: 1px 1px 16px 0.5px var(--color-principal);
+  }
+}
+.button_contacto {
+      padding: 8px 18px;
+      border: none;
+      background-color: #8458b3;
+      color: white;
+      font-size: larger;
+      border-radius: 10px;
+    }
+
+.contacto_contenedor_input {
+  padding-bottom: 10px;
+  width: 100%;
+
+  label {
+    width: 100%;
+    text-align: left;
+    font-family: var(--fuente-naranja);
+    text-transform: capitalize;
+    font-size: larger;
+
+  }
+
+  input {
+    width: 100%;
+    text-align: left;
+    font-family: var(--fuente-roja);
+    font-size: smaller;
+    margin-bottom: 15px;
+    padding: 3px 5px 3px 5px;
+  }
+
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 3px 5px 3px 5px;
+    margin-bottom: 15px;
+    font-family: var(--fuente-roja);
+    font-size: smaller;
+  }
+}
+
+
+.contacto_contenedor_errores {
+  color: red;
+  font-family: var(--fuente-naranja);
+  font-size: smaller;
+  padding: 5px 0;
+
+}
+
+.contacto_contenedor_input_ok {
+  color: green;
+  font-family: var(--foont-style);
+  font-size: medium;
+  padding: 5px 0;
+}
+
+@media (max-width:480px) {
+  .contacto_contenedor {
+    width: 100%;
+    height: auto;
+  }
+
+  .contacto_contenedor_box {
+    width: 100%;
+
+    form {
+      border: 1px solid navajowhite;
+      width: 95%;
+      padding: 15px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgb(250, 249, 248);
+    }
+
+    form:hover {
+      transform: scale(1.01);
+    }
+  }
+
+  
+
+}

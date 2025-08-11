@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #726eff; */
+  background-color: #8458b3;
+  padding: 3px 0;
+
+  p {
+    font-style: italic;
+    font-size: small;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 3px 0 3px 0;
+  }
+
+  span {
+    color: white;
+  }
+ 
+}
