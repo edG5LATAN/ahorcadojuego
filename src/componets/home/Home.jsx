@@ -58,11 +58,10 @@ function Home() {
     if (contador + 1 >= 5) {
       setGano(false);
     }
-    if (palabra == respuestCompleta) {
+    if (palabra.toLowerCase() == respuestCompleta.toLowerCase()) {
       setGano(true);
     }
     setContador(contador++);
-    console.log(contador);
   };
 
   const reset = () => {
